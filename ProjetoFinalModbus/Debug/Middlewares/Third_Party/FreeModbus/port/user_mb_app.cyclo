@@ -1,0 +1,4 @@
+../Middlewares/Third_Party/FreeModbus/port/user_mb_app.c:54:14:eMBRegInputCB	4
+../Middlewares/Third_Party/FreeModbus/port/user_mb_app.c:101:14:eMBRegHoldingCB	7
+../Middlewares/Third_Party/FreeModbus/port/user_mb_app.c:165:14:eMBRegCoilsCB	8
+../Middlewares/Third_Party/FreeModbus/port/user_mb_app.c:242:14:eMBRegDiscreteCB	4

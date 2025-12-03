@@ -1,0 +1,51 @@
+#include "lwip/api.h"
+#include "lwip/sys.h"
+#include "string.h"
+
+void tcp_client_task(void *argument) {
+    struct netconn *conn;
+    struct netbuf *buf;
+    err_t err;
+
+    ip_addr_t server_ip;
+    IP4_ADDR(&server_ip, 192, 168, 0, 100);   // IP do servidor
+
+    const uint16_t server_port = 8080;
+    const char *msg = "oi\n";
+
+    while (1) {
+        conn = netconn_new(NETCONN_TCP);
+        if (conn == NULL) {
+            sys_msleep(1000);
+            continue;
+        }
+
+        err = netconn_connect(conn, &server_ip, server_port);
+        if (err != ERR_OK) {
+            netconn_delete(conn);
+            sys_msleep(1000);
+            continue;
+        }
+
+        while (1) {
+            buf = netbuf_new();
+            if (!buf) break;
+
+            netbuf_ref(buf, msg, strlen(msg));
+
+            err = netconn_send(conn, buf);
+            netbuf_delete(buf);
+
+            if (err != ERR_OK) {
+                break;
+            }
+
+            sys_msleep(100);   // 100 ms
+        }
+
+        netconn_close(conn);
+        netconn_delete(conn);
+
+        sys_msleep(1000);
+    }
+}

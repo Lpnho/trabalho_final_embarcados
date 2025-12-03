@@ -1,0 +1,4 @@
+../Middlewares/Third_Party/FreeModbus/port/cmsis_rtos2/porttimer.c:37:6:xMBPortTimersInit	24	static
+../Middlewares/Third_Party/FreeModbus/port/cmsis_rtos2/porttimer.c:44:6:vMBPortTimersEnable	8	static
+../Middlewares/Third_Party/FreeModbus/port/cmsis_rtos2/porttimer.c:49:6:vMBPortTimersDisable	8	static
+../Middlewares/Third_Party/FreeModbus/port/cmsis_rtos2/porttimer.c:54:13:prvvTIMERExpiredISR	16	static

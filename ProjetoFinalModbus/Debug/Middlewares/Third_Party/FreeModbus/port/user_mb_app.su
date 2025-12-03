@@ -1,0 +1,4 @@
+../Middlewares/Third_Party/FreeModbus/port/user_mb_app.c:54:14:eMBRegInputCB	32	static
+../Middlewares/Third_Party/FreeModbus/port/user_mb_app.c:101:14:eMBRegHoldingCB	40	static
+../Middlewares/Third_Party/FreeModbus/port/user_mb_app.c:165:14:eMBRegCoilsCB	56	static
+../Middlewares/Third_Party/FreeModbus/port/user_mb_app.c:242:14:eMBRegDiscreteCB	48	static

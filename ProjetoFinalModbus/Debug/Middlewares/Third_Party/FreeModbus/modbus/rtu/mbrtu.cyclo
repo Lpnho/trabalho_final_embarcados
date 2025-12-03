@@ -1,0 +1,8 @@
+../Middlewares/Third_Party/FreeModbus/modbus/rtu/mbrtu.c:83:1:eMBRTUInit	4
+../Middlewares/Third_Party/FreeModbus/modbus/rtu/mbrtu.c:128:1:eMBRTUStart	1
+../Middlewares/Third_Party/FreeModbus/modbus/rtu/mbrtu.c:144:1:eMBRTUStop	1
+../Middlewares/Third_Party/FreeModbus/modbus/rtu/mbrtu.c:153:1:eMBRTUReceive	4
+../Middlewares/Third_Party/FreeModbus/modbus/rtu/mbrtu.c:187:1:eMBRTUSend	2
+../Middlewares/Third_Party/FreeModbus/modbus/rtu/mbrtu.c:226:1:xMBRTUReceiveFSM	7
+../Middlewares/Third_Party/FreeModbus/modbus/rtu/mbrtu.c:286:1:xMBRTUTransmitFSM	5
+../Middlewares/Third_Party/FreeModbus/modbus/rtu/mbrtu.c:329:1:xMBRTUTimerT35Expired	8

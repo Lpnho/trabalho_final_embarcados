@@ -1,0 +1,10 @@
+10:57:24 **** Incremental Build of configuration Debug for project ProjetoFinalModbus ****
+make -j8 all 
+arm-none-eabi-size  ProjetoFinalModbus.elf 
+   text	   data	    bss	    dec	    hex	filename
+  87384	    120	  59280	 146784	  23d60	ProjetoFinalModbus.elf
+Finished building: default.size.stdout
+ 
+
+10:57:25 Build Finished. 0 errors, 0 warnings. (took 756ms)
+

@@ -1,0 +1,6 @@
+C:/Users/Drumonstro/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Middlewares/Third_Party/LwIP/src/core/mem.c:344:1:plug_holes	24	static
+C:/Users/Drumonstro/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Middlewares/Third_Party/LwIP/src/core/mem.c:382:1:mem_init	16	static
+C:/Users/Drumonstro/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Middlewares/Third_Party/LwIP/src/core/mem.c:419:1:mem_free	24	static
+C:/Users/Drumonstro/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Middlewares/Third_Party/LwIP/src/core/mem.c:478:1:mem_trim	40	static
+C:/Users/Drumonstro/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Middlewares/Third_Party/LwIP/src/core/mem.c:603:1:mem_malloc	40	static
+C:/Users/Drumonstro/STM32Cube/Repository/STM32Cube_FW_F1_V1.8.5/Middlewares/Third_Party/LwIP/src/core/mem.c:765:1:mem_calloc	24	static

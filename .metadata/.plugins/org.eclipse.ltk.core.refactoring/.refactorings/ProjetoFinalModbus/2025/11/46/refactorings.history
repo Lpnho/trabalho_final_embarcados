@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;ProjetoFinalModbus/Core/Inc/echo_cliente&apos; to &apos;echo_cliente.h&apos;" description="Rename resource &apos;echo_cliente&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Inc/echo_cliente" name="echo_cliente.h" stamp="1763122418325" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;ProjetoFinalModbus/Core/Src/echo_cliente.h&apos; to &apos;echo_cliente.c&apos;" description="Rename resource &apos;echo_cliente.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Src/echo_cliente.h" name="echo_cliente.c" stamp="1763122479545" updateReferences="true"/>
+</session>

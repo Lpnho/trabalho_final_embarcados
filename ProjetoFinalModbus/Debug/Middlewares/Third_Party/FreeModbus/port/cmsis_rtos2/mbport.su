@@ -1,0 +1,9 @@
+../Middlewares/Third_Party/FreeModbus/port/cmsis_rtos2/mbport.c:21:6:vMBTCPPortClose	8	static
+../Middlewares/Third_Party/FreeModbus/port/cmsis_rtos2/mbport.c:31:6:vMBTCPPortDisable	8	static
+../Middlewares/Third_Party/FreeModbus/port/cmsis_rtos2/mbport.c:35:6:xMBTCPPortSendResponse	32	static
+../Middlewares/Third_Party/FreeModbus/port/cmsis_rtos2/mbport.c:75:6:xMBTCPPortInit	24	static
+../Middlewares/Third_Party/FreeModbus/port/cmsis_rtos2/mbport.c:90:14:tcp_server_accept	24	static
+../Middlewares/Third_Party/FreeModbus/port/cmsis_rtos2/mbport.c:105:13:tcp_server_connection_close	16	static
+../Middlewares/Third_Party/FreeModbus/port/cmsis_rtos2/mbport.c:116:13:tcp_server_error	16	static
+../Middlewares/Third_Party/FreeModbus/port/cmsis_rtos2/mbport.c:122:14:tcp_server_recv	24	static
+../Middlewares/Third_Party/FreeModbus/port/cmsis_rtos2/mbport.c:142:6:xMBTCPPortGetRequest	16	static
